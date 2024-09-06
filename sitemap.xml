@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://starlingbagsni.co.uk/</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/shop</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/about</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/contact</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/quote</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/shop?product=22</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/shop?product=23</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/shop?product=24</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/login</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starlingbagsni.co.uk/forgotpassword</loc>
+  <lastmod>2023-07-14T07:16:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0% 3% 0% 3%;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.main-Product-details {
+    margin: 5% 0% 5% 0%;
+    padding: 0 20px 0 20px;
+}
+
+.Product-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.single-pro-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.single-img img {
+    width: 400px;
+    height: 450px;
+    object-fit: inherit;
+}
+
+.small-img-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.small-img-group img {
+    width: 60px;
+    height: 70px;
+    margin-top: 5%;
+    margin: 10px;
+    border-style: groove;
+    border-width: 2px;
+    padding: 3px;
+}
+
+
+
+.single-product-des {
+    margin-left: 50px;
+}
+
+
+.single-product-des .offer-price {
+    margin-top: 10px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.single-product-des .original-price {
+    text-decoration: line-through;
+
+}
+
+
+.single-product-des-checkbox {
+    margin-bottom: 15px;
+}
+
+.single-product-des-checkbox::after {
+    background-color: #248386;
+}
+
+.single-product-Quantity {
+    color: rgba(0, 0, 0, 0.525) !important;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.single-product-Quantity-input {
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.525);
+    width: 70px;
+    margin-bottom: 18px;
+}
+
+.single-product-cart {
+    border-radius: 3px;
+    width: 200px;
+    padding: 7px 10px;
+    background-color: #248386;
+    font-size: 18px;
+    color: white;
+
+}
+
+.single-product-info-title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    /*font-size: 25px;*/
+    /*font-weight: 500;*/
+}
+
+.single-product-info p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.single-product-info .single-product-info-name {
+    padding-right: 10px;
+    min-width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.single-product-info table tr td{
+    text-align: start;
+}
+
+.single-product-info {
+    font-weight: 500;
+}
+
+.single-product-info .form-check {
+    justify-content: center;
+}
+
+/* checkbox */
+
+.single-product-info-checkboxes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.single-product-info-checkboxes div {
+    margin-right: 30px;
+}
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]:checked+label {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.product-descrition-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.Product-details-btn {
+    margin: 3% 5% 10%;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 830px) {
+    .Product-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .single-pro-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+    .single-product-des {
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .single-img {
+        width: 100%;
+    }
+
+    .single-img img {
+        width: calc(100% - 5px);
+        height: calc(100% - 5px);
+    }
+
+    .main-Product-details {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:310px) {
+    .small-img-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

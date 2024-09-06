@@ -1,0 +1,52 @@
+.body {
+    padding-left: 130px;
+    /* background-color: rgba(195, 195, 195, 0.114); */
+    min-height: 120vh;
+    /* background-color: rgb(226, 193, 255); */
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+.shop-top-btns{
+    display: flex;
+    justify-content: space-between;
+    
+}
+table {
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: rgb(206, 197, 197); */
+}
+
+/* table thead {} */
+
+table th {
+    color: aliceblue;
+    background-color: rgb(31, 76, 75)  !important;
+    border-color: black;
+
+    padding: 15px 5px 10px 5px !important;
+    vertical-align: middle;
+}
+
+table tbody td {
+    padding: 20px 5px 5px 5px;
+    vertical-align: middle;
+   
+}
+
+table tbody td h6{
+    font-size: 1.1rem !important;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .body {
+        padding: 30px 30px 30px 30px;
+        /* background-color: rgba(195, 195, 195, 0.114); */
+        /* min-height: 120vh; */
+        /* color: black; */
+
+    }
+}

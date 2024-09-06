@@ -1,0 +1,113 @@
+[06-Jul-2023 10:44:08 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:39 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:39 UTC] PHP Warning:  unlink(../ordersFilesandimages/12_09_2022-college_bags_for_girls_23063596_145627792.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:39 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:39 UTC] PHP Warning:  unlink(../ordersFilesandimages/12_09_2022-college_bags_for_girls_23063596_145627792.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:43 UTC] PHP Warning:  unlink(../ordersFilesandimages/8e3cb46a0d4dbd0326a4b2ab9369b146.png): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:43 UTC] PHP Warning:  unlink(../ordersFilesandimages/998cc02d8171f63ac029b54d1cda4008.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 09:26:48 UTC] PHP Warning:  unlink(../ordersFilesandimages/998cc02d8171f63ac029b54d1cda4008.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[10-Jul-2023 10:05:00 UTC] PHP Warning:  array_combine(): Both parameters should have an equal number of elements in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/view_product.php on line 98
+[10-Jul-2023 10:05:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/view_product.php on line 99
+[10-Jul-2023 10:50:07 UTC] PHP Warning:  unlink(productimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 212
+[10-Jul-2023 10:55:40 UTC] PHP Warning:  array_combine(): Both parameters should have an equal number of elements in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/view_product.php on line 98
+[10-Jul-2023 10:55:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/view_product.php on line 99
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 92
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: selected_list in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 129
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 154
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 156
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 190
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 225
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: lablearray in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 248
+[10-Jul-2023 11:36:41 UTC] PHP Notice:  Undefined variable: arr in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 249
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 92
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: selected_value in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 105
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: selected_list in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 129
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 154
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 156
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 190
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: arr in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 207
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: lablearray in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 208
+[10-Jul-2023 17:16:22 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 209
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: rows in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 235
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: lablearray in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 258
+[10-Jul-2023 17:16:22 UTC] PHP Notice:  Undefined variable: arr in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 259
+[17-Jul-2023 07:16:39 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[17-Jul-2023 07:16:40 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[17-Jul-2023 07:16:40 UTC] PHP Warning:  unlink(../ordersFilesandimages/31xPyjeX0NL._AC_SY400_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[17-Jul-2023 07:16:40 UTC] PHP Warning:  unlink(../ordersFilesandimages/71gJeKWqtbL._AC_UY1100_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[17-Jul-2023 07:16:43 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[17-Jul-2023 07:16:43 UTC] PHP Warning:  unlink(../ordersFilesandimages/31xPyjeX0NL._AC_SY400_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 281
+[20-Jul-2023 10:10:30 UTC] PHP Warning:  unlink(categoryimages/Screenshot_2023-07-17-14-45-39-045_com.whatsapp.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/ajax.php on line 63
+[07-Aug-2023 07:09:29 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:10:12 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:10:14 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:10:38 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:10:41 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:13:57 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:13:59 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:14:42 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:16:04 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:16:16 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:16:44 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:16:46 UTC] PHP Notice:  Undefined variable: orderCount in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 175
+[07-Aug-2023 07:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admincrud::newOrderCount() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/dashboard.php(40): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admincrud::newOrderCount() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/order.php(126): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admincrud::newOrderCount() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/order.php(126): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:18:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admincrud::newOrderCount() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/dashboard.php(40): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:24 UTC] PHP Notice:  Undefined variable: classobj in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function newOrderCount() on null in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/choosequot.php(64): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:32 UTC] PHP Notice:  Undefined variable: classobj in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function newOrderCount() on null in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/choosequot.php(64): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:57 UTC] PHP Notice:  Undefined variable: classobj in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 07:24:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function newOrderCount() on null in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php:20
+Stack trace:
+#0 /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/choosequot.php(64): include()
+#1 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/header.php on line 20
+[07-Aug-2023 10:01:47 UTC] PHP Notice:  Undefined index: quotetype in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 252
+[07-Aug-2023 10:01:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php:255
+Stack trace:
+#0 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 255
+[07-Aug-2023 10:02:20 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 235
+[07-Aug-2023 10:02:23 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 235
+[07-Aug-2023 10:02:30 UTC] PHP Notice:  Undefined index: quotetype in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 252
+[07-Aug-2023 10:02:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php:255
+Stack trace:
+#0 {main}
+  thrown in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 255
+[07-Aug-2023 10:58:44 UTC] PHP Warning:  unlink(../ordersFilesandimages/31xPyjeX0NL._AC_SY400_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 283
+[07-Aug-2023 10:58:44 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 283
+[07-Aug-2023 10:58:47 UTC] PHP Warning:  unlink(../ordersFilesandimages/8F4A5899-2.webp): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 283
+[07-Aug-2023 10:58:47 UTC] PHP Warning:  unlink(../ordersFilesandimages/31xPyjeX0NL._AC_SY400_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 283
+[07-Aug-2023 10:58:47 UTC] PHP Warning:  unlink(../ordersFilesandimages/71gJeKWqtbL._AC_UY1100_.jpg): No such file or directory in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/product-controller.php on line 283
+[03-Feb-2024 14:26:52 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/adminpanel/editnew_product.php on line 251

@@ -1,0 +1,165 @@
+[07-Jul-2023 09:35:06 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[07-Jul-2023 13:27:07 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[07-Jul-2023 13:28:39 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[10-Jul-2023 09:51:24 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[10-Jul-2023 09:52:19 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[10-Jul-2023 11:22:37 UTC] PHP Warning:  array_combine(): Both parameters should have an equal number of elements in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/product_details.php on line 86
+[10-Jul-2023 11:22:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/product_details.php on line 87
+[10-Jul-2023 12:14:23 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[10-Jul-2023 12:18:33 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[11-Jul-2023 05:34:33 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[11-Jul-2023 05:40:13 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[11-Jul-2023 06:07:07 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[11-Jul-2023 06:34:39 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[11-Jul-2023 12:51:19 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:03:03 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:03:19 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:08:21 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:08:24 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:30:12 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[12-Jul-2023 06:57:50 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[13-Jul-2023 09:04:40 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[14-Jul-2023 07:35:23 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[15-Jul-2023 07:14:59 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[17-Jul-2023 05:41:00 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[17-Jul-2023 05:41:37 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[17-Jul-2023 05:42:39 UTC] PHP Notice:  Undefined index: rating_point in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/getquote.php on line 240
+[24-Jul-2023 17:15:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Jul-2023 06:12:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Jul-2023 06:12:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Jul-2023 09:27:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[30-Jul-2023 02:51:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[30-Jul-2023 02:51:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[02-Aug-2023 14:25:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[05-Aug-2023 14:42:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[05-Aug-2023 17:16:05 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[07-Aug-2023 10:36:53 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[07-Aug-2023 10:36:53 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[07-Aug-2023 11:04:05 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[07-Aug-2023 11:04:05 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[07-Aug-2023 11:43:00 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[07-Aug-2023 11:43:00 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[07-Aug-2023 12:07:04 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[07-Aug-2023 12:07:04 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[07-Aug-2023 12:07:32 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[07-Aug-2023 12:07:32 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[07-Aug-2023 16:45:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[07-Aug-2023 16:45:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[08-Aug-2023 05:09:16 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[08-Aug-2023 05:09:16 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[08-Aug-2023 05:10:28 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[08-Aug-2023 05:10:28 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[08-Aug-2023 05:19:52 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[08-Aug-2023 05:19:52 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[10-Aug-2023 07:19:21 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[10-Aug-2023 07:19:21 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[14-Aug-2023 14:32:55 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Aug-2023 04:29:35 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Aug-2023 21:51:36 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[15-Aug-2023 21:51:36 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[17-Aug-2023 14:16:12 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Aug-2023 07:14:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Aug-2023 07:14:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Aug-2023 07:14:26 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Aug-2023 07:21:27 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Aug-2023 07:27:05 UTC] PHP Notice:  Undefined variable: quoteType in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/fetch-products.php on line 178
+[21-Aug-2023 07:27:10 UTC] PHP Notice:  Undefined variable: quoteType in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/fetch-products.php on line 178
+[21-Aug-2023 07:27:19 UTC] PHP Notice:  Undefined variable: quoteType in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/fetch-products.php on line 178
+[21-Aug-2023 07:27:23 UTC] PHP Notice:  Undefined variable: quoteType in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/fetch-products.php on line 178
+[21-Aug-2023 07:27:34 UTC] PHP Notice:  Undefined variable: quoteType in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/fetch-products.php on line 178
+[21-Aug-2023 20:16:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Aug-2023 02:20:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Aug-2023 03:04:38 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[31-Aug-2023 21:38:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[31-Aug-2023 21:44:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[02-Sep-2023 21:18:40 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[02-Sep-2023 21:24:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[04-Sep-2023 02:09:05 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[06-Sep-2023 04:26:41 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[07-Sep-2023 11:35:40 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[07-Sep-2023 17:43:00 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 185
+[08-Sep-2023 12:43:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[08-Sep-2023 20:42:54 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[09-Sep-2023 07:30:54 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[12-Sep-2023 00:42:45 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[14-Sep-2023 20:16:19 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Sep-2023 02:14:44 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Sep-2023 18:34:45 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Sep-2023 18:39:57 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[18-Sep-2023 19:22:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[18-Sep-2023 19:28:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[18-Sep-2023 20:18:11 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[18-Sep-2023 21:30:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[19-Sep-2023 14:13:04 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[19-Sep-2023 14:13:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[19-Sep-2023 23:56:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[20-Sep-2023 00:09:55 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[20-Sep-2023 03:07:59 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[20-Sep-2023 03:08:05 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[20-Sep-2023 21:56:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Sep-2023 07:27:26 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[23-Sep-2023 16:16:45 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[23-Sep-2023 16:25:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[23-Sep-2023 16:49:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Sep-2023 17:22:58 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Sep-2023 18:28:06 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Sep-2023 22:44:16 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[30-Oct-2023 17:25:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[04-Nov-2023 23:03:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[05-Nov-2023 16:20:28 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[06-Nov-2023 09:16:36 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[08-Nov-2023 01:50:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Nov-2023 16:15:40 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Nov-2023 16:15:40 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Nov-2023 16:15:53 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Nov-2023 16:15:53 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Nov-2023 22:52:16 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Nov-2023 20:58:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Nov-2023 20:58:19 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Nov-2023 22:03:11 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[26-Nov-2023 22:03:16 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Nov-2023 14:04:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Nov-2023 14:05:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Nov-2023 16:51:12 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[29-Nov-2023 16:51:12 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[30-Nov-2023 12:04:20 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[06-Dec-2023 22:26:05 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[06-Dec-2023 22:45:06 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[09-Dec-2023 06:23:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Dec-2023 01:36:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[11-Dec-2023 01:49:00 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Dec-2023 00:21:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[14-Dec-2023 09:48:27 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[14-Dec-2023 09:49:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[14-Dec-2023 12:30:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[14-Dec-2023 12:31:41 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Dec-2023 09:11:55 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Dec-2023 09:12:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Dec-2023 09:13:06 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[27-Dec-2023 09:13:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 07:04:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 07:21:24 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 08:18:03 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 10:01:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 10:39:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[29-Dec-2023 14:57:41 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[31-Dec-2023 08:37:51 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[01-Jan-2024 11:10:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[01-Jan-2024 11:22:48 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[03-Feb-2024 14:05:33 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[03-Feb-2024 14:05:33 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[03-Feb-2024 14:24:40 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/product_details.php on line 83
+[03-Feb-2024 14:25:43 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/product_details.php on line 83
+[03-Feb-2024 14:26:05 UTC] PHP Notice:  Undefined index: cust_address in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 83
+[03-Feb-2024 14:26:05 UTC] PHP Notice:  Undefined index: bag_printing_text in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/quoteformaction.php on line 87
+[26-Feb-2024 21:35:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Mar-2024 02:12:36 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Mar-2024 02:15:21 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Mar-2024 02:23:20 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Mar-2024 02:36:11 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[13-Mar-2024 05:00:26 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 185
+[13-Mar-2024 10:10:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[15-Mar-2024 02:19:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[24-Mar-2024 02:03:49 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[30-Mar-2024 18:14:55 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210
+[21-Apr-2024 15:43:54 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/viu0wuxcw0ph/public_html/starlingbagsni.co.uk/curd-model.php on line 210

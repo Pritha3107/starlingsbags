@@ -1,0 +1,153 @@
+body {
+  padding: 0 3% 0 3%;
+  background: #e8f0f0;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #e8f0f0;
+  /* overflow-y: scroll; */
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+form .card {
+  display: block;
+  padding: 60px 30px 30px 30px;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.user_img {
+  z-index: 1;
+  top: -60px;
+  position: absolute;
+  background: #022C43;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_img i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.form-quote_input {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.form-quote_input label {
+  position: absolute;
+  left: 9px;
+  top: 12px;
+  transition: .2s;
+  background: #fff;
+  opacity: .5;
+  pointer-events: none;
+  padding: 0px 4px 0px 4px;
+}
+
+.form-quote_input input {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #dde1e3;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0px 0px 2px 0px;
+}
+
+.form-quote_input input:focus,
+.form-quote_input input:not(:placeholder-shown) {
+  border-radius: 5px;
+  border: 2px solid #022C43;
+}
+
+.form-quote_input input:focus+label,
+.form-quote_input input:not(:placeholder-shown)+label {
+  font-weight: 600;
+  background: #fff;
+  color: #022C43;
+  transform: scale(0.8) translateY(-30px);
+  opacity: 1;
+}
+
+.form-quote_input small {
+  color: #ff0000;
+  visibility: hidden;
+}
+
+.was_validate .form-quote_input input:focus:invalid+label,
+.was_validate .form-quote_input input:invalid:not(:placeholder-shown)+label {
+  color: #ff0000;
+}
+
+.was_validate .form-quote_input input:invalid {
+  border-color: #ff0000;
+  box-shadow: 0px 0px 2px 0px #ff0000;
+
+}
+
+.was_validate .form-quote_input input:invalid~small {
+  visibility: visible;
+}
+
+.usr_prfc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.usr_prfc a {
+  text-decoration: none;
+}
+
+.usr_prfc .form-check .form-check-input {
+  margin-left: 0;
+  margin-right: .5rem;
+}
+
+form button {
+  position: absolute;
+  bottom: -20px;
+  padding: 15px 50px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #022C43;
+  color: #fff;
+  transition: .2s;
+  font-weight: 600;
+}
+
+form button:hover {
+  background: #808080;
+}
+
+form button:active {
+  background: #022C43;
+}
+
+@media screen and (max-width: 370px) {
+  .usr_prfc {
+    justify-content: center;
+  }
+
+ 
+}

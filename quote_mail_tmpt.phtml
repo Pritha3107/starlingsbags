@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Email Subject</title>
+    <style>
+        /* Reset styles to ensure consistent rendering */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add styles to your email content */
+        .email-content {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 20px;
+            max-width: 600px;
+            margin: 2rem auto 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #0088cc;
+            text-decoration: none;
+        }
+
+        span {
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-content">
+        <h1>New Quotation Request From Customer</h1>
+        <p>Dear Admin,</p>
+        <p>
+            I hope this email finds you well.
+            I am writing to inform you that we have received a new quotation request from a customer through our website.
+            The details of the quotation request are as follows:
+        </p>
+        <p>
+        <h4>Customer Name : <span>%username%</span> </h4>
+        <h4>Customer Email : <span>%usermail%</span> </h4>
+        <h4>Customer Phone Number : <span>%userphno%</span> </h4>
+        <h4>Customer Address : <span>%useraddress%</span> </h4>
+        </p>
+        <!-- <h3>Product Details :- </h3> 
+        <p>
+            <h4>Product : <span>Jute bags</span></h4>
+            <h4>Quantity : <span>100</span></h4>
+            <h4>Bag Type : <span>Jute</span></h4>
+            <h4>Bag Specifications : <span>company name and log</span></h4>
+        </p> -->
+
+        <p>Thank you for your prompt attention to this matter.
+            Your expertise and professionalism in handling customer requests are greatly appreciated.
+        </p>
+
+        <p>Best regards,</p>
+        <p>Starling bags.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body {
+    padding: 0 3% 0 3%;
+    background: #e8f0f0;
+}
+
+.about_page{
+    transition: .3s;
+    background: #e8f0f0;
+}
+
+.about_page h1{
+    color: white;
+    background-color: #022C43;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    transition: .4s;
+}
+
+.about_page_row{
+    align-items: center;
+
+}
+
+.about_page_row_about-us p{
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.about_page_row_about-us_img img{
+    width: 100%;
+}
+@media screen and (max-width:760px){
+  .about_page h1{
+    height:3.5rem;
+  }
+}
+@media screen and (min-width:760px){
+  .about_page h1{
+    height:100px;
+  }
+}

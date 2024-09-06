@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 0 3% 0 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-bg-img {
+    background: #022C43;
+}
+
+.main-bg-img img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+    width: 100%;
+}
+
+.main-Quotes {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    margin-top: 3%;
+    padding: 3%;
+
+}
+
+.main-Quotes h2 {
+    font-size: 400%;
+
+}
+
+.main-Quotes p {
+    margin-top: 2%;
+    font-size: 200%
+}
+
+.main-img-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+
+}
+
+.main-btn {
+    margin-top: 10%;
+    color: #022C43;
+    font-size: 100%;
+    font-weight: 700;
+    padding: 2%;
+    background-color: #e8f0f0;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* Categories */
+
+
+
+
+
+.Categories {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: #e8f0f0;
+}
+
+.Categories-of-bags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.Categories-title {
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+/* .Categories h4 {
+    margin-bottom: 20px;
+} */
+
+.categories-bags {
+    margin: 4%;
+    width: 350px;
+    height: 350px;
+}
+
+.categories-bags img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 20px solid white;
+}
+
+
+
+
+/* Featured produucts */
+
+.bestseller-products {
+    background-color: #e8f0f0;
+    padding-bottom: 20px;
+    padding-left: 5%;
+
+    padding-right: 5%;
+}
+
+.bestseller-products-title {
+    margin-left: 15px;
+    padding: 10px 0 15px 0;
+    width: fit-content;
+
+}
+
+
+.bestseller-card {
+    padding-bottom: 30px;
+    background-color: #e8f0f0;
+    display: grid;
+    /* gap: var(--size-6); */
+    grid-auto-flow: column;
+    grid-auto-columns: 320px;
+    overflow-x: auto;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+
+}
+
+.bestseller-card.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1.02);
+}
+
+
+.bestseller-card .card {
+    /* border: none; */
+    /* padding: var(--size-3); */
+    /* background: var(--surface-2); */
+    /* border-radius: var(--radius-2); */
+    border: 5px solid white;
+    /* margin: 10px; */
+    background-color: white;
+    transition: 0.4s;
+    width: 300px;
+
+}
+
+.bestseller-card .card:hover {
+    transform: scale(1.05);
+}
+
+
+/* .bestseller-card .card img { */
+    /* inline-size: 100%;
+    aspect-ratio: 16 / 15;
+    object-fit: cover; */
+/* } */
+
+.bestseller-card .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding: 20px;*/
+}
+
+
+
+.bestseller-products .details {
+    height: 70px;
+    /*overflow:hidden;*/
+}
+
+.bestseller-products .product_name {
+    margin: 5px 0 10px 0;
+    font-size: 12;
+    color:black;
+
+}
+
+.bestseller-card .card #original-price {
+    margin-right: 4px;
+    text-decoration: line-through;
+    color: #747272;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.bestseller-card .card #offer-price {
+    margin-right: 14px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.bestseller-card .card #rating {
+    background-color: rgb(233, 236, 239);
+    width: fit-content;
+    padding: 2px 3px 2px 4px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* 
+.bestseller-card .card #rating i {
+    color: rgb(255, 225, 0);
+} */
+
+.bestseller-button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    width: 100%;
+
+    z-index: 1;
+    position: absolute;
+    bottom: 20px; */
+}
+
+.bestseller-card .btn {
+    margin-top: 10px;
+    border-style: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #45748e;
+    transition: 0.4s;
+    width: 95%;
+    margin: 0 4px 0 4px;
+    /* margin: 0 20px 0 20px;
+    width: 100%;
+    background-color: #115173;
+    color: rgb(255, 255, 255); */
+
+}
+
+.bestseller-card .btn:hover {
+    transform: scale(.91);
+    color: aliceblue;
+    background-color: #115173;
+}
+
+.bestseller-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.bestseller-card::-webkit-scrollbar-track {
+    /* border: 1px solid #000; */
+    /* padding: 20px; */
+    margin: 100px;
+    /* background-color: #404040; */
+}
+
+.bestseller-card::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+
+}
+
+.bestseller-card::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+    background-color: #514d4d;
+    /* border: 1px solid #000; */
+}
+
+scrollbar [orient="vertical"] scrollbarbutton,
+scrollbar [orient="vertical"] slider {
+    width: 25px !important;
+    height: 25px !important;
+    -moz-appearance: none !important;
+}
+
+
+
+
+/*Bestseller*/
+/* 
+.Bestseller-products {
+    background-color: #e8f0f0;
+    padding-bottom: 20px;
+    padding-left: 5%;
+
+    padding-right: 5%;
+}
+
+
+
+.Bestseller-products-title {
+    margin-left: 15px;
+    background-color: #e8f0f0;
+    padding: 4% 0 5% 0;
+}
+
+
+.Bestseller-card {
+   
+    padding-bottom: 30px;
+    background-color: #e8f0f0;
+    display: grid;
+  
+    grid-auto-flow: column;
+    grid-auto-columns: 360px;
+    overflow-x: auto;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+   
+
+   
+}
+
+
+.Bestseller-card.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1.02);
+}
+
+.Bestseller-card .card {
+
+    
+    border: none;
+    padding: var(--size-3);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    border: 5px solid white;
+    margin: 10px;
+    background-color: white;
+    transition: 0.4s;
+   
+
+
+}
+
+.Bestseller-card .card:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.Bestseller-card .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+.Bestseller-products #product-name {
+    margin: 5px 0 10px 0;
+   
+    font-size: 1.3rem;
+}
+
+.Bestseller-card .card #original-price {
+    margin-right: 4px;
+    text-decoration: line-through;
+    color: #747272;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.Bestseller-card .card #offer-price {
+    margin-right: 14px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.Bestseller-button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Bestseller-card .btn {
+    margin-top: 10px;
+    border-style: none;
+    font-size: 1.2rem;
+   
+    color: white;
+    background-color: #45748e;
+    transition: 0.4s;
+    width: 95%;
+    margin: 0 4px 0 4px;
+    
+
+}
+
+.Bestseller-card .btn:hover {
+    transform: scale(.9);
+    color: aliceblue;
+    background-color: #115173;
+}
+
+
+
+
+.Bestseller-card::-webkit-scrollbar-track {
+   
+    margin: 100px;
+    
+}
+
+.Bestseller-card::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+
+}
+
+.Bestseller-card::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+   
+    background-color: #514d4d;
+ 
+} */
+
+
+
+@media only screen and (max-width:967px) {
+    .main-Quotes h2 {
+        font-size: 270%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 150%;
+
+    }
+
+    .main-btn {
+        margin-top: 3%;
+        font-size: 75%;
+    }
+
+}
+
+@media only screen and (max-width:890px) {
+
+    .main-Quotes h2 {
+        font-size: 270%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 150%;
+
+    }
+
+    .main-btn {
+        margin-top: 3%;
+        font-size: 75%;
+
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .main-bg-img {
+        background: #022C43;
+    }
+
+    .main-bg-img img {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        max-height: 600px;
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .main-Quotes h2 {
+        font-size: 250%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 90%;
+
+    }
+
+    .main-btn {
+        margin-top: 3%;
+        font-size: 74%;
+
+    }
+
+    .Categories-cotton-bags,
+    .Categories-leather-bags {
+        margin: 7%;
+        width: 350px;
+        height: 350px;
+    }
+
+    .facilities .card i {
+        font-size: 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .facilities .card h3 {
+        font-size: 20px;
+    }
+
+    /* .facilities .card { */
+        /* min-width: 100px; */
+    /* } */
+}
+
+/* 
+@media only screen and (max-width:510px) {
+    .main-btn {
+        margin-top: 5%;
+        font-size: 70%;
+
+    }
+} */
+
+@media only screen and (max-width:495px) {
+
+    .main-bg-img {
+        background: #022C43;
+    }
+
+    .main-bg-img img {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        max-height: 600px;
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .main-Quotes h2 {
+        font-size: 190%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 80%;
+
+    }
+
+    .main-btn {
+        margin-top: 5%;
+        font-size: 70%;
+
+    }
+
+    .facilities {
+        padding: 5%;
+    }
+
+    .facilities .card i {
+        font-size: 7px;
+        margin: 0 0 10px 0;
+        padding: 0;
+
+    }
+
+    .facilities .card h3 {
+        font-size: 12px;
+    }
+
+    .facilities .card-body {
+        padding: 0;
+    }
+
+
+    .Categories-cotton-bags,
+    .Categories-leather-bags {
+        margin: 9%;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    /* .bestseller-card{
+        grid-auto-columns: 250px;
+    }
+    .Bestseller-card{
+        grid-auto-columns: 250px;
+    } */
+
+}
+
+@media only screen and (max-width:410px) {
+
+    /* .Categories-leather-bags img {
+        width: 300px;
+
+    } */
+
+    .main-bg-img {
+        background: #022C43;
+    }
+
+    .main-bg-img img {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        max-height: 600px;
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .main-Quotes h2 {
+        font-size: 180%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 80%;
+
+    }
+
+    .main-btn {
+        margin-top: 5%;
+        font-size: 70%;
+
+    }
+
+    .main-btn {
+        margin-top: 2%;
+        font-size: 70%;
+
+    }
+
+    /* .featured-card{
+        grid-auto-columns: 200px;
+    }
+    .Bestseller-card{
+        grid-auto-columns: 200px;
+    } */
+}
+
+@media only screen and (max-width:300px) {
+
+    /* .Categories-leather-bags img {
+        width: 300px;
+
+    } */
+    .main-bg-img {
+        background: #022C43;
+    }
+
+    .main-bg-img img {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        max-height: 600px;
+        width: 100%;
+        min-height: 180px;
+    }
+
+    .main-Quotes h2 {
+        font-size: 170%;
+
+    }
+
+    .main-Quotes p {
+        font-size: 90%;
+
+    }
+
+    .main-btn {
+        margin-top: 2%;
+        font-size: 60%;
+
+    }
+
+    /* .featured-card{
+        grid-auto-columns: 200px;
+    }
+    .Bestseller-card{
+        grid-auto-columns: 200px;
+    } */
+}

@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 3% 0 3%;
+}
+
+.shop {
+    transition: .3s;
+    background: #e8f0f0;
+}
+
+.shop-title {
+    color: white;
+    background-color: #022C43;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    transition: .4s;
+}
+
+
+.shop-filters {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+.shop-filters .shop-filters-child{
+    /* padding: 0; */
+    display: flex;
+    overflow-y:visible;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    /* height: 50px; */
+}
+.shop-filters .shop-filters-child::-webkit-scrollbar {
+    width: 0.5em; /* Adjust the width as needed */
+  }
+.shop-filters .filter-btn {
+    margin: 0px 10px;
+    /* background-color: white; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* font-weight: 500; */
+    /* background-color: rgb(146, 160, 171); */
+    background: #e8f0f0;
+    ;
+    /* color: white; */
+
+
+
+    position: relative;
+}
+
+.shop-filters .filter-btn h4 {
+    /* word-wrap: none; */
+    font-size: 20px;
+}
+
+
+.filter-btn::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    background-color: rgb(0, 9, 9);
+    width: 0%;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.filter-btn:hover::after {
+    width: 100%;
+}
+
+.active-btn {
+    color: black;
+}
+
+.active-btn::after {
+    width: 100%;
+}
+
+
+
+.shop-items {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.8rem;
+    width: calc(50% -30px); */
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin: 40px 5% 0 5%;
+
+    /* gap: var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 200px; */
+}
+
+.shop-items .shop-item {
+    width: 350px;
+    /* min-height: 450px; */
+    margin-bottom: 60px;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    border-style: dashed;
+    animation: fadeIn 1s;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 
+.shop-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+} */
+.shop-item .card {
+    position: relative;
+    padding-top: 0;
+
+}
+
+
+
+.shop-item-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop-items .card img {
+    /* aspect-ratio: 6/7; */
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+    object-fit: cover;
+    transition: .3s;
+
+}
+
+/* .shop-items .card img:hover {
+    transform: scale(1.05);
+} */
+
+
+.shop-items .card .product-name {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    min-height: 50px;
+}
+
+
+
+
+.shop-items .card .offer-price {
+    margin-right: 10px;
+    font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.shop-items .card .original-price {
+    text-decoration: line-through;
+    color: #747272;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.fa-star {
+    color: rgba(255, 213, 0, 0.742);
+}
+
+
+.shop-items .card .product-button {
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    /* margin: 10px; */
+    /* width: 350px; */
+
+    z-index: 1;
+    /* position: absolute;
+    bottom: 20px; */
+
+}
+
+.shop-items .card .product-button .Get-quote-btn {
+    /* margin: 0 20px 0 20px; */
+    margin-top: 10px;
+    /* width: 100% !important; */
+    background-color: #115173;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.shop-items .card .product-button  .Get-quote-btn:hover {
+    background-color: #123f57;
+    color: aliceblue;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+    .shop-items .card {
+        width: calc(40% - 30px);
+
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .shop-items .card {
+        width: calc(33.333% - 30px);
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .shop-items .card {
+
+        width: calc(25% - 30px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .shop-items .card {
+
+        width: calc(90% - 30px);
+    }
+}
+
+
+
+
+@media screen and (max-width: 330px) {
+
+    .shop-items .card img {
+        /* aspect-ratio: 6/7; */
+        width: 100%;
+        height: 200px;
+        margin-top: 0;
+        object-fit: cover;
+        transition: .3s;
+
+    }
+
+}
+
+
+
+.shop-items .card {
+    position: relative;
+
+}
+
+.product-details-link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.product-info {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(116, 180, 237);
+    color: black;
+}
+
+#no_item_found {
+    border-radius: 50%;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#no_item_found img {
+    width: 75%;
+}
+
+#no_item_found h2 {
+    color: #022C43;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #no_item_found img {
+        width: 90%;
+    }
+
+    #no_item_found {
+        /* border-radius: 50%; */
+        width: 165px;
+        height: 165px;
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+        position: relative;
+    }
+
+    #no_item_found h2 {
+        position: absolute;
+        bottom: -64px;
+        width: 100px;
+        text-align: center;
+        /* color: #022C43;
+        margin-top: 15px;
+        font-size: 1.5rem; */
+        /* display: none; */
+    }
+}
+@media screen and (max-width:760px){
+    .shop-title{
+      height:3.5rem;
+    }
+  }
+  @media screen and (min-width:760px){
+    .shop-title{
+      height:100px;
+    }
+  }
