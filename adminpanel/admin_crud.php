@@ -1613,7 +1613,24 @@ class Admincrud extends Customers
         return false;
     }
 
+    public function getEnquiryById($id)
+    {
+        // Get the connection using the db_connection() method
+        $conn = $this->db_connection();
 
+        // Prepare and execute the query
+        $stmt = $conn->prepare("SELECT * FROM enquiry_request WHERE id = ?");
+        $stmt->bind_param("i", $id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $enquiry = $result->fetch_assoc();
+
+        // Close the statement and connection
+        $stmt->close();
+        $conn->close();
+
+        return $enquiry;
+    }
     
 }
 

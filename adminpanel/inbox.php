@@ -156,6 +156,25 @@ if (!$productData) {
             display: none;
             z-index: 1000;
         }
+        .view-btn i {
+            color: #007bff !important; /* Vibrant blue color for view icon */
+            font-size: 18px; /* Adjust size as needed */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        .view-btn i:hover {
+            color: #0056b3 !important; /* Darker blue color on hover */
+        }
+
+        .delete-btn i {
+            color: #dc3545 !important; /* Vibrant red color for delete icon */
+            font-size: 18px; /* Adjust size as needed */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        .delete-btn i:hover {
+            color: #c82333 !important; /* Darker red color on hover */
+        }
 
     /* .dataTables_wrapper .dataTables_filter {
         float: left;
@@ -219,6 +238,7 @@ if (!$productData) {
                                 <th>Email</th>
                                 <th>Phone No</th>
                                 <th>Message</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -236,7 +256,18 @@ if (!$productData) {
                                     <td>' . $row["ctc_person_email"] . '</td>
                                     <td>' . $row["ctc_person_phno"] . '</td>
                                     <td>' . $row["ctc_person_msg"] . '</td>
-                                <td><button class="delete-btn btn btn-danger" data-id="' .  (isset($row["id"]) ? $row["id"] : '')  .  '">Delete</button></td>
+                                                                     <td>
+                                                                                <!-- View Icon -->
+                                        <a href="view_enquiry.php?id=' . htmlspecialchars($enquiryId) . '" title="View" class="text-info view-btn">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <!-- Delete Icon -->
+                                        <a href="#" title="Delete" class="text-danger delete-btn" data-id="' . htmlspecialchars($enquiryId) . '">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                    </td>
+ 
+
                                 </tr>';
                                 $i = $i + 1;
                                 }
@@ -249,10 +280,57 @@ if (!$productData) {
             </div>
         </div>
     </div>
+    <!-- View Enquiry Modal -->
+    <div id="viewEnquiryModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enquiry Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Customer Name:</strong> <span id="modalCustomerName"></span></p>
+                    <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+                    <p><strong>Phone No:</strong> <span id="modalPhoneNo"></span></p>
+                    <p><strong>Message:</strong> <span id="modalMessage"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function() {
+        $('#viewEnquiryModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Button that triggered the modal
+            var enquiryId = button.data('id'); // Extract info from data-* attributes
+            
+            // Make AJAX request to fetch enquiry details
+            $.ajax({
+                url: 'view_enquiry.php',
+                type: 'GET',
+                data: { id: enquiryId },
+                dataType: 'json',
+                success: function(data) {
+                    // Populate modal with data
+                    $('#modalCustomerName').text(data.ctc_person_name);
+                    $('#modalEmail').text(data.ctc_person_email);
+                    $('#modalPhoneNo').text(data.ctc_person_phno);
+                    $('#modalMessage').text(data.ctc_person_msg);
+                },
+                error: function() {
+                    toastr.error('Failed to load enquiry details');
+                }
+            });
+        });
+
         // Check for new messages every 30 seconds
         setInterval(checkNewMessages, 30000);
         
@@ -295,8 +373,6 @@ if (!$productData) {
                 }
             });
         });
-        
-        // ... (existing delete button functionality) ...
     });
     </script>
 </body>
