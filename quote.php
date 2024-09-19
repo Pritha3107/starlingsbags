@@ -167,7 +167,7 @@
 
                     <input type="file" name="referance_image[]" class="d-none file_load" id="upload"
 
-                        onchange="uploadimg()" accept="image/*,.doc, .docx, .pdf, .tex" multiple>
+                        onchange="uploadimg()" accept="image/*" multiple>
 
                     <label for="upload" class="shadow p-2 px-3">
 
