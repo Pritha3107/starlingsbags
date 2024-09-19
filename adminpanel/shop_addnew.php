@@ -73,7 +73,7 @@ $listing_option = $classobj->getlistingCategory();
                                         <img src="" alt="" class="uploadCopyImg">
                                         <img src="./assets/errorWarning.png" alt="" class="warningIcon" style="width: 25px;">
                                     </label>
-                                    <label for="upload-copy-img" class="label-copy-img"><i class="fa-solid fa-cloud-arrow-up pe-2"></i> secondary images</label>
+                                    <label for="" class="label-copy-img"><i class="fa-solid fa-cloud-arrow-up pe-2"></i> secondary images</label>
                                 </div>
                                 <small class="text-danger errorMessage">maximum 4 images only accept</small>
                             </div>

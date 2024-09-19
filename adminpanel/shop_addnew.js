@@ -39,31 +39,29 @@ function mainchange() {
 
   }
 }
-
-function copychange() {
-  for (let i = 0; i < productImageContainers.copyimagescontainer.length; i++) {
-    productImageContainers.copyimagescontainer[i].children[0].style.display = "none"
-  }
+//function copychange() {
+  //for (let i = 0; i < productImageContainers.copyimagescontainer.length; i++) {
+    //productImageContainers.copyimagescontainer[i].children[0].style.display = "none"
+  //}
   // copyimagescontainer.innerHTML = "";
 
-  if (productImageContainers.uploadcopyimg.files.length > 4) {
-    productImageContainers.uploadcopyimg.value = ""
-    productImageContainers.copyImage.classList.add('errorStyle');
-  }
+  //if (productImageContainers.uploadcopyimg.files.length > 4) {
+    //productImageContainers.uploadcopyimg.value = ""
+    //productImageContainers.copyImage.classList.add('errorStyle');
+  //}
 
-  else {
-    productImageContainers.copyImage.classList.remove('errorStyle')
-    for (let i = 0; i < productImageContainers.uploadcopyimg.files.length; i++) {
-      let reader = new FileReader();
-      reader.readAsDataURL(productImageContainers.uploadcopyimg.files[i]);
-      reader.onload = () => {
-        productImageContainers.copyimagescontainer[i].children[0].style.display = "flex";
-        productImageContainers.copyimagescontainer[i].children[0].src = reader.result
-      };
-    }
-  }
-}
-
+  //else {
+    //productImageContainers.copyImage.classList.remove('errorStyle')
+    //for (let i = 0; i < productImageContainers.uploadcopyimg.files.length; i++) {
+      //let reader = new FileReader();
+      //reader.readAsDataURL(productImageContainers.uploadcopyimg.files[i]);
+      //reader.onload = () => {
+        //productImageContainers.copyimagescontainer[i].children[0].style.display = "flex";
+        //productImageContainers.copyimagescontainer[i].children[0].src = reader.result
+      //};
+    //}
+  //}
+//}
 function productContainerResponsiveSet() {
   if (window.getComputedStyle(productImageContainers.copyImage, null).display === "none") {
     // remove old col class from container
@@ -114,4 +112,32 @@ addInfoSection.newinputname.addEventListener("blur", function (e) {
     addInfoSection.newinputname.value = "";
   }
 });
+// Grab all the copy image containers
+const copyImageContainers = document.querySelectorAll('.copy-images');
 
+// Create a function to handle each copy image upload
+copyImageContainers.forEach((container, index) => {
+    container.addEventListener('click', function() {
+        // Create a hidden input element for each box to upload a file
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = 'image/*';
+        
+        // On file selection, display the image in the corresponding box
+        input.addEventListener('change', function() {
+            if (input.files && input.files[0]) {
+                let reader = new FileReader();
+                reader.onload = function(event) {
+                    // Display the selected image in the clicked box
+                    const imgTag = container.querySelector('.uploadCopyImg');
+                    imgTag.src = event.target.result;
+                    imgTag.style.display = "block";
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        });
+
+        // Trigger the input click
+        input.click();
+    });
+});
