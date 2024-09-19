@@ -42,7 +42,7 @@ $contactData = $object->getAppContactInfo();
                         <i class="fa-solid fa-bars menu_bar"></i>
                     </div>
                     <div class="logo">
-                        <a href="https://starlingbagsni.co.uk/">
+                        <a href="https://starlingbagsni.uk/">
                             <span><img src="./assets/starlinglogo.svg" alt="starling bag" width="100%" height="100%" style="max-width: 200px; height:80px;"></span>
                         </a>
                     </div>
@@ -70,8 +70,8 @@ $contactData = $object->getAppContactInfo();
                 <li class="list"><a href="./adminpanel/home.php">Home</a></li>
                 <li class="list"><a href="shop.php">Shop</a></li>
                 <li class="list"><a href="about.php">About</a></li>
-                <li class="list"><a href="contact.php">Contact</a></li>
                 <li class="list"><a href="quote.php">Quote</a></li>
+                <li class="list"><a href="contact.php">Contact</a></li>                
             </ul>
         </div>
     </div>
@@ -101,8 +101,8 @@ $contactData = $object->getAppContactInfo();
                 <li class="list"><a href="home.php">Home</a></li>
                 <li class="list"><a href="shop.php">Shop</a></li>
                 <li class="list"><a href="about">About</a></li>
-                <li class="list"><a href="contact">Contact</a></li>
                 <li class="list"><a href="quote">Quote</a></li>
+                <li class="list"><a href="contact">Contact</a></li>                
             </ul>
         </div>
 

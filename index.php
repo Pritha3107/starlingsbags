@@ -36,7 +36,7 @@ $pro_data = $object->getProductDetails();
 
     <meta property="og:title" content="Starling bags-NI | customizable bags, promotional bags, eco-friendly bags" />
 
-     <meta property="og:image" content="https://starlingbagsni.co.uk/assets/starlinglogo.svg" />
+     <meta property="og:image" content="https://starlingbagsni.uk/assets/starlinglogo.svg" />
 
     <link rel="stylesheet" href="./style.css">
 

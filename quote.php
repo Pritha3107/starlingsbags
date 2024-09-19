@@ -189,7 +189,7 @@
 
                 <div class="d-flex justify-content-between w-100 m-2">
 
-                    <button type="button" class="btn bk"><a href="index.php">Back</a></button>
+                    <button type="button" class="btn back"><a href="index.php">Back</a></button>
 
                     <button type="submit" name="submit" class="btn quoteSubmit d-flex align-items-center"><span
 
