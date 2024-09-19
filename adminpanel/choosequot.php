@@ -63,20 +63,20 @@
 <body>
     <?php include("header.php") ?>
     <div class="body">
-        <div class="h2">QUOTS EDIT PAGE</div>
+        <div class="h2">QUOTES EDIT PAGE</div>
         <hr>
         <div class="mainQuotCard d-flex flex-wrap justify-content-lg-start justify-content-center">
             <div class="card QuotCard p-3 m-3 shadow">
                 <img src="./assets/normelquot.png">
                 <div class="h5 pt-3 textColor">Normal Get a Quote</div>
-                <small class="textColor">Click here to customize the "Get a Quot" Page</small>
-                <a href="./quote?quoteType=normal" class="btn shadow-none mt-3 fw-bold">Edit Quot</a>
+                <small class="textColor">Click here to customize the "Get a Quote" Page</small>
+                <a href="./quote?quoteType=normal" class="btn shadow-none mt-3 fw-bold">Edit Quote</a>
             </div>
             <div class="card QuotCard p-3 m-3 shadow">
                 <img src="./assets/productquot.png">
                 <div class="h5 pt-3 textColor">Products Get a Quote</div>
-                <small class="textColor">Click here to customize the product "Get a Quot" Page</small>
-                <a href="./quote?quoteType=product" class="btn shadow-none mt-3 fw-bold">Edit Quot</a>
+                <small class="textColor">Click here to customize the product "Get a Quote" Page</small>
+                <a href="./quote?quoteType=product" class="btn shadow-none mt-3 fw-bold">Edit Quote</a>
             </div>
         </div>
     </div>

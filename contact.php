@@ -113,15 +113,15 @@ $contactData = $object->getAppContactInfo();
                     <div class="social_link">
                         <ul>
                             <?php if (!empty($contactData['facebook_link'])): ?>
-                                <li><a href="<?= $contactData['facebook_link']; ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="<?= $contactData['facebook_link']; ?>" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <?php endif; ?>
 
                             <?php if (!empty($contactData['twitter_link'])): ?>
-                                <li><a href="<?= $contactData['twitter_link']; ?>"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="<?= $contactData['twitter_link']; ?>" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                             <?php endif; ?>
 
                             <?php if (!empty($contactData['instagram_link'])): ?>
-                                <li><a href="<?= $contactData['instagram_link']; ?>"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="<?= $contactData['instagram_link']; ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                             <?php endif; ?>
                         </ul>
                     </div>

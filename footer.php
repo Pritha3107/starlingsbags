@@ -27,16 +27,16 @@ $contactData = $object->getAppContactInfo();
             <a href="./login"><i class="fa-solid fa-right-to-bracket"></i></a>
             <?php
             if (!empty($contactData['facebook_link'])) {
-                echo ' <a href="' . $contactData['facebook_link'] . '"><i class="fa-brands fa-facebook"></i></a>';
+                echo ' <a href="' . $contactData['facebook_link'] . '" target="_blank"><i class="fa-brands fa-facebook"></i></a>';
             }
             if (!empty($contactData['instagram_link'])) {
-                echo ' <a href="' . $contactData['instagram_link'] . '"><i class="fa-brands fa-instagram"></i></a>';
+                echo ' <a href="' . $contactData['instagram_link'] . '" target="_blank"><i class="fa-brands fa-instagram"></i></a>';
             }
             if (!empty($contactData['youtube_link'])) {
-                echo ' <a href="' . $contactData['youtube_link'] . '"><i class="fa-brands fa-youtube"></i></a>';
+                echo ' <a href="' . $contactData['youtube_link'] . '" target="_blank"><i class="fa-brands fa-youtube"></i></a>';
             }
             if (!empty($contactData['twitter_link'])) {
-                echo ' <a href="' . $contactData['twitter_link'] . '"><i class="fa-brands fa-twitter"></i></a>';
+                echo ' <a href="' . $contactData['twitter_link'] . '" target="_blank"><i class="fa-brands fa-twitter"></i></a>';
             }
             ?>
 
