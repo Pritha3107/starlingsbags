@@ -17,7 +17,6 @@ label{
     height: 100%;
     max-width: 700px;
 }
-
 .main-img {
     /* min-width: 200px; */
     height: 220px;
@@ -136,7 +135,7 @@ label{
 }
 
 .editable-inputs{
-    /* background-color: rgb(46, 75, 77,.1); */
+    background-color: rgb(46, 75, 77,.1); 
     padding: 1rem;
 }
 .choose-input-type{
