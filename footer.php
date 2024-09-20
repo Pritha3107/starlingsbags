@@ -20,7 +20,7 @@ $contactData = $object->getAppContactInfo();
 <body>
     <div class="footer">
         <div class="copyrights">
-            <small><a href="https://aahasolutions.com/" class="text-decoration-none text-white">© 2023 AAHA Solutions . All Rights Reserved</a></small>
+            <small><a href="https://aahasolutions.com/" class="text-decoration-none text-white">© 2024 AAHA Solutions . All Rights Reserved</a></small>
         </div>
         <div class="social-media-icons">
 
