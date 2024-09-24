@@ -25,6 +25,6 @@ class DB
     }
     public function basePath()
     {
-        return $this->base_url =  'https://starlingbagsni.co.uk/';
+        return $this->base_url =  'https://starlingbagsni.uk/';
     }
 }

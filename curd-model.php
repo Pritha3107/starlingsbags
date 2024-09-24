@@ -125,7 +125,6 @@ class Customers extends db
 
     public function email($name, $mail_id, $phno, $msg)
     {
-
         $mailer = new PHPMailer(true);
         $usertmpt = file_get_contents('useremailtmpt.phtml');
         $usertmpt = str_replace('%username%', $name, $usertmpt);
@@ -138,64 +137,45 @@ class Customers extends db
         $admintmpt = str_replace('%message%', $msg, $admintmpt);
         $adminMailId = $this->getAppContactInfo();
         try {
-            //Server settings
-    //         // Server settings
             $mailer->isSMTP();
-            $mailer->Host       = 'smtp.gmail.com';
+            $mailer->Host       = 'sg2plzcpnl505722.prod.sin2.secureserver.net'; // Updated SMTP host
             $mailer->SMTPAuth   = true;
-            $mailer->Username   = 'sivaathriaahasolutions@gmail.com';
-            $mailer->Password   = 'yrkt ghwt jaie eman'; // Use an app password, not your regular password
+            $mailer->Username   = 'admin@starlingbagsni.uk'; // Updated username
+            $mailer->Password   = 'Monday@1234567890'; // You'll need to set the correct password
             $mailer->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mailer->Port       = 587;
 
-            //Recipients
-            $mailer->setFrom('sivaathriaahasolutions@gmail.com', 'admin');
-            $mailer->addAddress($adminMailId['contact_mail'], 'Admin');     //Add a recipient
-            //$mailer->addReplyTo('your_email@gmail.com', 'admin');
+            $mailer->setFrom('admin@starlingbagsni.uk', 'Admin'); // Updated From address
+            $mailer->addAddress($adminMailId['contact_mail'], 'Admin');
             
-            //Attachments (optional)
-            // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachmentshttp://localhost/DJ-BAGS/forgotpassword.php
-            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-            
-            //Content
-            $mailer->isHTML(true);                                  //Set email format to HTML
+            $mailer->isHTML(true);
             $mailer->Subject = 'Contact Request From Customers';
             $mailer->Body = $admintmpt;
             $mailer->AltBody = 'Plain text message of the email';
             if ($mailer->send()) {
                 $mailer->clearAddresses();
                 $mailer->addAddress($mail_id, $name);
-                $mailer->isHTML(true);                                  //Set email format to HTML
                 $mailer->Subject = 'Thank you for contacting us !!!';
                 $mailer->Body = $usertmpt;
                 $mailer->AltBody = 'Plain text message of the email';
 
-                //This should be the same as the domain of your From address
-                $mailer->DKIM_domain = 'starlingbagsni.co.uk';
-                //See the DKIM_gen_keys.phps script for making a key pair -
-                //here we assume you've already done that.
-                //Path to your private key:
+                $mailer->DKIM_domain = 'starlingbagsni.uk'; // Updated domain
                 $mailer->DKIM_private = 'dkim_private.pem';
-                //Set this to your own selector
                 $mailer->DKIM_selector = 'default';
-                //Put your private key's passphrase in here if it has one
                 $mailer->DKIM_passphrase = '';
-                //The identity you're signing as - usually your From address
                 $mailer->DKIM_identity = $mailer->From;
-                //Suppress listing signed header fields in signature, defaults to true for debugging purpose
                 $mailer->DKIM_copyHeaderFields = false;
 
                 $mailer->send();
-                //echo 'mail2 sened';
                 return true;
             } else {
                 echo 'mail2 not send';
             }
-            //echo 'Message has been sent';
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mailer->ErrorInfo}";
         }
     }
+
 
     public function getProductCategories($id = null)
     {
@@ -393,9 +373,9 @@ class Customers extends db
         }
     }
 
+   
     public function emailForQuote($name, $mail_id, $phno, $address)
     {
-
         $mailer = new PHPMailer(true);
         $usertmpt = file_get_contents('quote_mail_tmpt.phtml');
         $usertmpt = str_replace('%username%', $name, $usertmpt);
@@ -404,61 +384,40 @@ class Customers extends db
         $usertmpt = str_replace('%useraddress%', $address, $usertmpt);
         $adminmailId = $this->getAppContactInfo();
         try {
-            //Server settings
-            $mailer->SMTPDebug = 0;                                    //Enable verbose debug output
-            $mailer->isMail();                                         //Send using SMTP
-            $mailer->Host       = 'smtp.gmail.com';                    //Set the SMTP server to send through
-            $mailer->SMTPAuth   = true;                                //Enable SMTP authentication
-            $mailer->Username   = 'sivaathriaahasolutions@gmail.com';  //SMTP username
-            $mailer->Password   = 'yrkt ghwt jaie eman';                
-            $mailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //SMTP password
-            //$mailer->SMTPSecure = 'tls';                               //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-            $mailer->Port       = 587;                                 //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+            $mailer->SMTPDebug = 0;
+            $mailer->isSMTP();
+            $mailer->Host       = 'sg2plzcpnl505722.prod.sin2.secureserver.net'; // Updated SMTP host
+            $mailer->SMTPAuth   = true;
+            $mailer->Username   = 'admin@starlingbagsni.uk'; // Updated username
+            $mailer->Password   = 'Monday@1234567890'; // You'll need to set the correct password
+            $mailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            $mailer->Port       = 465; // Updated port for SMTPS
 
-            //Recipients
-            $mailer->setFrom('info@starlingbagsni.co.uk', 'admin');
-            $mailer->addAddress($adminmailId['contact_mail'], 'Admin');     //Add a recipient
-            //$mailer->addReplyTo('your_email@gmail.com', 'admin');
+            $mailer->setFrom('admin@starlingbagsni.uk', 'Admin'); // Updated From address
+            $mailer->addAddress($adminmailId['contact_mail'], 'Admin');
 
-            //Attachments (optional)
-            // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachmentshttp://localhost/DJ-BAGS/forgotpassword.php
-            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-
-            //Content
-            $mailer->isHTML(true);                                  //Set email format to HTML
+            $mailer->isHTML(true);
             $mailer->Subject = 'New Quotation Request for Bags - Action Required';
             $mailer->Body = $usertmpt;
             $mailer->AltBody = 'Plain text message of the email';
 
-              //This should be the same as the domain of your From address
-              $mailer->DKIM_domain = 'starlingbagsni.co.uk';
-              //See the DKIM_gen_keys.phps script for making a key pair -
-              //here we assume you've already done that.
-              //Path to your private key:
-              $mailer->DKIM_private = 'dkim_private.pem';
-              //Set this to your own selector
-              $mailer->DKIM_selector = 'default';
-              //Put your private key's passphrase in here if it has one
-              $mailer->DKIM_passphrase = '';
-              //The identity you're signing as - usually your From address
-              $mailer->DKIM_identity = $mailer->From;
-              //Suppress listing signed header fields in signature, defaults to true for debugging purpose
-              $mailer->DKIM_copyHeaderFields = false;
-
+            $mailer->DKIM_domain = 'starlingbagsni.uk'; // Updated domain
+            $mailer->DKIM_private = 'dkim_private.pem';
+            $mailer->DKIM_selector = 'default';
+            $mailer->DKIM_passphrase = '';
+            $mailer->DKIM_identity = $mailer->From;
+            $mailer->DKIM_copyHeaderFields = false;
 
             if ($mailer->send()) {
-                //echo 'mail was send';
                 return true;
             } else {
                 echo 'mail not send';
                 return false;
             }
-            //echo 'Message has been sent';
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mailer->ErrorInfo}";
         }
     }
-
 public function getAppContactInfo()
     {
         $sql = "SELECT * FROM " . $this->contact_tbl;
